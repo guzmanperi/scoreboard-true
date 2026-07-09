@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="container">
+        <div class="scoreboard">
+          <h3>HOME</h3>
+          <p class="score-el" id="score-l">0</p>
+          <div class="btn-style">
+            <button class="btn" id="btn1" onclick="increment1l()">+1</button>
+            <button class="btn" id="btn2" onclick="increment2l()">+2</button>
+            <button class="btn" id="btn3" onclick="increment3l()">+3</button>
+          </div>
+        </div>
+        <div class="scoreboard">
+          <h3>GUEST</h3>
+          <p class="score-el" id="score-r">0</p>
+          <div class="btn-style">
+            <button class="btn" id="btn1" onclick="increment1r()">+1</button>
+            <button class="btn" id="btn2" onclick="increment2r()">+2</button>
+            <button class="btn" id="btn3" onclick="increment3r()">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="reset">
+        <button class="btn" id="reset-btn" onclick="reset()">RESET</button>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

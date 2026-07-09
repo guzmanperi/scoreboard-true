@@ -1,0 +1,89 @@
+@font-face {
+  font-family: CursedTimer;
+  src: url("../fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.whole {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1b244a;
+  margin-top: 200px;
+  width: 575px;
+  height: 385px;
+  border: 5px solid #9aabd8;
+  border-radius: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.scoreboard {
+  font-family: inherit;
+  font-size: 40px;
+  margin-top: -40px;
+}
+
+.score-el {
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  background-color: #080001;
+  border-radius: 5px;
+  width: 155px;
+  height: 120px;
+  font-size: 90px;
+  font-family: CursedTimer;
+  font-weight: normal;
+  color: #f94f6d;
+  margin-top: -35px;
+}
+
+.btn {
+  font-family: CursedTimer;
+  font-weight: normal;
+  font-size: 18px;
+  background-color: #1b244a;
+  color: #9aabd8;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  margin: -10px auto;
+}
+
+.btn-style {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: -60px;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 200px;
+  margin-bottom: 10px;
+}
